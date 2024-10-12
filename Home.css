@@ -195,3 +195,118 @@
 .social-icons a:hover {
     color: #ff6600;
 }
+/* For pixel 7 */
+@media screen and (max-width: 412px) {
+
+    .navbar {
+        flex-direction: column; 
+        padding-right: 1em; 
+    }
+    .items li {
+        margin-right: 5px; 
+    }
+    .items a {
+        font-size: 10px; 
+    }
+    .search {
+        margin-left: 50px; 
+    }
+    .search input{
+        width: 50px;
+        height: 2px;
+        padding: 5px;
+        margin-top: 4px;
+        border: 1px solid #342E37;
+        border-radius: 2.5px;
+        font-size: 5px;
+      }
+      .search button{
+          font-family: 'Protest Strike', sans-serif;
+          font-size: 8px;
+          background-color: #3C91E6;
+          color: #2B2D42 ;
+          border: none;
+          margin-top:5px;
+          padding: 0.2px 0.2px;
+          border-radius: 1px;
+          cursor: pointer;
+      }
+
+    .main {
+        height: auto; 
+        padding: 20px; 
+        flex-direction: column; 
+    }
+    .h1 {
+        font-size: 40px; 
+    }
+    .para {
+        font-size: 18px; 
+    }
+    .button {
+        font-size: 14px; 
+    }
+
+ 
+    .features ul {
+        flex-direction: column; 
+        margin: 0; 
+    }
+    .features li {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+    .features h2 {
+        font-size: 30px; 
+    }
+
+    
+    .reviews {
+        flex-direction: column; 
+        font-size: 5px;
+    }
+    .reviews img {
+        width: 50%; 
+        height: auto; 
+    }
+    .jessica{
+        visibility: collapse;
+    }
+ 
+    .about ul {
+        flex-direction: column; 
+        padding: 0;
+    }
+    .about li {
+        padding-right: 0; 
+    }
+
+ 
+    .footer {
+        padding: 10px;
+    }
+    .social-icons a {
+        font-size: 30px; 
+    }
+}
+/*For I pad pro  */
+@media screen and (max-width:1024px){
+    .items li{
+        margin-right: 20px;
+    }
+    .items a{
+        font-size: 25px;
+    }
+    .logout{
+        margin-left: 30px;
+    }
+    .reviews h2{
+        padding-left: 0px;
+    }
+    .reviews img{
+        width: 220px;
+    }
+    .about li{
+        padding-right: 200px;
+    }
+}
